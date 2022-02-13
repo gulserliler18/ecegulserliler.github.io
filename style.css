@@ -77,6 +77,10 @@
             padding-bottom: 10px;
         }
 
+        .content>a {
+            text-decoration: underline;
+        }
+
         div.propic>img {
             width: 100%;
         }
@@ -182,6 +186,11 @@
     .content>p {
         font-size: 300%;
         padding-bottom: 10px;
+    }
+
+
+    .content>a {
+        text-decoration: underline;
     }
 
     div.propic {
