@@ -45,6 +45,11 @@
             text-decoration: none;
         }
 
+
+        .navbar-icon{
+            display: none;
+        }
+
         .icon-wrapper {
             display: flex;
             position: relative;
