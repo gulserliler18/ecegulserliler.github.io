@@ -79,6 +79,7 @@
 
         .content>a {
             text-decoration: underline;
+            color: black;
         }
 
         div.propic>img {
@@ -191,6 +192,7 @@
 
     .content>a {
         text-decoration: underline;
+        color: black;
     }
 
     div.propic {
