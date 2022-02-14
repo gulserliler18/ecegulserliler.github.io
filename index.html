@@ -4,7 +4,8 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <script src="scripts.js"></script>
+    <script src="scripts.js">
+    </script>
     <title>About Me</title>
 </head>
 
@@ -223,6 +224,23 @@
             varius.
         </p>
     </div>
+    <script>
+        function scr_watch(global) {
+            if (global.matches) {
+                display_inc();
+                var nav = document.getElementsByClassName("nav_holder");
+                if (nav[0].style.height != "100%") {
+                    nav[0].style.height = "100%";
+                }
+            }
+            else{
+                display_dec();
+            }
+        }
+        var global = window.matchMedia("(min-width: 981px)")
+        scr_watch(global)
+        global.addListener(scr_watch)
+    </script>
 </body>
 
 </html>

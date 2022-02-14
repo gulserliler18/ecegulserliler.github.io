@@ -1,12 +1,12 @@
 function myFunction() {
-    var z = window.matchMedia("(max-width: 981px)")
+    var z = window.matchMedia("(max-width: 981px)");
     if (z.matches) {
         var x = document.getElementsByClassName("clicks");
-        var t = document.getElementsByClassName("nav_holder")
-        if(t[0].style.height == "100%"){
+        var t = document.getElementsByClassName("nav_holder");
+        if (t[0].style.height == "100%") {
             t[0].style.height = "5%";
         }
-        else{
+        else {
             t[0].style.height = "100%";
         }
         for (let index = 0; index < x.length; index++) {
@@ -16,6 +16,24 @@ function myFunction() {
                 x[index].style.display = "block";
             }
         }
-        
+
     }
+}
+
+function display_inc()
+{
+    var x = document.getElementsByClassName("clicks");
+    for (let index = 0; index < x.length; index++) {
+        x[index].style.display = "block";
+    }
+}
+
+function display_dec()
+{
+    var x = document.getElementsByClassName("clicks");
+    for (let index = 0; index < x.length; index++) {
+        x[index].style.display = "none";
+    }
+    var t = document.getElementsByClassName("nav_holder");
+    t[0].style.height = "5%";
 }
