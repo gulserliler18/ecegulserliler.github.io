@@ -45,7 +45,6 @@
             text-decoration: none;
         }
 
-
         .navbar-icon{
             display: none;
         }
@@ -119,25 +118,28 @@
 
 @media (max-width:981px) {
     .nav_holder {
-        display: none;
+        display: flex;
         flex-direction: column;
-        position: fixed;
-        width: 13%;
+        width: 100%;
+        height: 5%;
         margin: auto;
         margin-top: 0px;
         transform: perspective(100px);
         background: rgb(64, 64, 64);
-        padding: 5%;
-        padding-right: 1%;
+        padding: 10%;
+        padding-top: 0%;
         float: left;
-        text-align: right;
-        height: 100%;
+        text-align: left;
         /* Full height */
         position: fixed;
         /* Make it stick, even on scroll */
         overflow: auto;
         /* Enable scrolling if the sidenav has too much content */
-        box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .nav_holder > :not(.logo)
+    {
+        display: none;
     }
 
     .nav_holder>a>div {
@@ -146,7 +148,6 @@
         padding-bottom: 2%;
         color: rgb(255, 242, 230);
         font-family: Optima, sans-serif;
-        text-align: right;
         text-decoration: none;
         font-size: large;
     }
@@ -185,8 +186,8 @@
         margin-left: 0%;
         color: rgb(64, 64, 64);
         font-family: Helvetica, sans-serif;
-        padding-top: 30px;
         padding: 3%;
+        padding-top: 15%;
         font-size: 300%;
     }
 
