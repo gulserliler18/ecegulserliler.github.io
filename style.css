@@ -57,7 +57,7 @@
         width: 100%;
         padding-top: 2%;
         padding-bottom: 2%;
-        color: rgb(255, 242, 230);
+        color: rgb(248, 241, 233);
         font-family: Optima, sans-serif;
         text-align: right;
         text-decoration: none;
@@ -99,7 +99,7 @@
     }
 
     .icon-wrapper>a>div.icon>img:hover {
-        background: rgb(255, 242, 230);
+        background:rgb(248, 241, 233);
     }
 
     .content {
@@ -108,10 +108,10 @@
         color: rgb(64, 64, 64);
         font-family: Helvetica, sans-serif;
         padding-top: 30px;
+        padding-right: 3%;
     }
 
     .content>p {
-        font-size: larger;
         padding-bottom: 10px;
     }
 
@@ -121,7 +121,7 @@
     }
 
     div.propic>img {
-        width: 100%;
+        width: 90%;
     }
 
     div.propic {
@@ -134,7 +134,9 @@
 
     body {
         margin: 0px;
-        background-color: rgb(255, 242, 230);
+        background-color: rgb(248, 241, 233);
+        line-height:1.6 ;
+        font-size: larger;
     }
 
     h1.page-starter {
@@ -147,6 +149,10 @@
         text-align: center;
     }
 
+    div.wrapper{
+        overflow: auto;
+        height: fit-content;
+    }
 
 }
 
@@ -178,7 +184,7 @@
         width: 100%;
         padding-top: 2%;
         padding-bottom: 2%;
-        color: rgb(255, 242, 230);
+        color: rgb(248, 241, 233);
         font-family: Optima, sans-serif;
         text-decoration: none;
         font-size: 300%;
@@ -215,7 +221,7 @@
     }
 
     .icon-wrapper>a>div.icon>img:hover {
-        background: rgb(255, 242, 230);
+        background: rgb(248, 241, 233);
     }
 
     .content {
@@ -252,7 +258,7 @@
 
     body {
         margin: 0px;
-        background-color: rgb(255, 242, 230);
+        background-color: rgb(248, 241, 233);
     }
 
     h1.page-starter {
