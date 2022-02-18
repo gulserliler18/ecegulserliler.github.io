@@ -165,7 +165,8 @@
         margin-top: 0px;
         transform: perspective(100px);
         background: rgb(64, 64, 64);
-        padding: 25%;
+        padding: 5%;
+        padding-bottom: 25%;
         padding-top: 0%;
         float: left;
         text-align: left;
