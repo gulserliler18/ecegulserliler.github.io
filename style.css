@@ -52,6 +52,11 @@
     .name > p {
         display: none;
     }
+    
+    h2 {
+    font-family: "Space Mono", monospace;
+    font-size: 46px;
+    }
 
     .nav_holder>a>div {
         width: 100%;
@@ -183,6 +188,11 @@
 
     .nav_holder> :not(.logo) {
         display: none;
+    }
+    
+    h2 {
+    font-family: "Space Mono", monospace;
+    font-size: 46px;
     }
 
     .nav_holder>a>div {
