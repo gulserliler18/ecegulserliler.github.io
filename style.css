@@ -53,11 +53,6 @@
         display: none;
     }
     
-    h2 {
-    font-family:  Georgia, serif;
-    font-size: 32px;
-    }
-
     .nav_holder>a>div {
         width: 100%;
         padding-top: 2%;
@@ -190,11 +185,6 @@
         display: none;
     }
     
-    h2 {
-    font-family:  Georgia, serif;
-    font-size: 32px;
-    }
-
     .nav_holder>a>div {
         width: 100%;
         padding-top: 2%;
