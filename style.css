@@ -58,7 +58,7 @@
         padding-top: 2%;
         padding-bottom: 2%;
         color: rgb(248, 241, 233);
-        font-family: Roboto, serif;
+        font-family: "Space Mono", monospace;
         text-align: right;
         text-decoration: none;
         font-size: large;
@@ -106,7 +106,7 @@
         margin-left: 19%;
         padding-left: 30px;
         color: rgb(64, 64, 64);
-        font-family: Poppins, sans-serif;
+        font-family: Muli, sans-serif;
         padding-top: 30px;
         padding-right: 3%;
     }
@@ -190,7 +190,7 @@
         padding-top: 2%;
         padding-bottom: 2%;
         color: rgb(248, 241, 233);
-        font-family: Roboto, serif;
+        font-family: "Space Mono", monospace;
         text-decoration: none;
         font-size: 300%;
     }
@@ -234,7 +234,7 @@
     .content {
         margin-left: 0%;
         color: rgb(64, 64, 64);
-        font-family: Poppins, sans-serif;
+        font-family: Muli, sans-serif;
         padding: 3%;
         padding-top: 24%;
         font-size: 300%;
