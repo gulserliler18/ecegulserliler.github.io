@@ -158,6 +158,10 @@
         height: fit-content;
     }
 
+    small{
+        font-family: Georgia, serif;
+    }
+
 }
 
 @media (max-width:981px) {
@@ -278,5 +282,9 @@
     #footer {
         background: rgb(64, 64, 64);
         text-align: center;
+    }
+
+    small{
+        font-family: Georgia, serif;
     }
 }
